@@ -1,6 +1,6 @@
 import Converter from "./Converter";
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <nav className="navbar is-success is-transparent is-shadow" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
@@ -57,7 +57,7 @@ const Navbar = (props) => {
               <a className="button is-light">
                 Log in
               </a>
-              <Converter {...props}/>
+              <Converter />
             </div>
           </div>
         </div>
